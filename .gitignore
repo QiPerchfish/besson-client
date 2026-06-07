@@ -1,0 +1,58 @@
+.idea/
+.gradle/
+*.iml
+local.properties
+/.cxx/
+
+# 编译输出
+build/
+app/build/
+*.apk
+*.aab
+*.dex
+*.class
+
+# 日志文件
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# Gradle wrapper jar（不要忽略 gradle-wrapper.properties）
+!gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+!gradle-wrapper.jar
+
+# 代码覆盖率
+.ec
+.*.coverdata
+
+# 混淆
+/proguard/
+
+# 临时文件
+*.cache
+*.lock
+*.keystore
+
+# NDK
+*.so
+*.dSYM
+*.dylib
+*.dll
+
+# 版本控制忽略
+.vscode/
+.metadata/
+
+# 备份文件
+*.bak
+*.orig
+*.rej
+
+# 本地配置文件
+secrets.properties
+keystore.properties
