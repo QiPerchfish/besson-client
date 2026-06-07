@@ -81,7 +81,6 @@ class MainActivity : AppCompatActivity() {
             className = className )
         RetrofitClient.instance.addStudentsInfo(student).enqueue(object : retrofit2.Callback<Student> {
             override fun onResponse(call: Call<Student>, response: Response<Student>) {
-                TODO("Not yet implemented")
                 if (response.isSuccessful) {
                     Toast.makeText(this@MainActivity, "添加成功", Toast.LENGTH_SHORT).show()
                     fetchStudents()
@@ -91,7 +90,6 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call<Student>, t: Throwable) {
-                TODO("Not yet implemented")
                 Toast.makeText(this@MainActivity, "网络错误: ${t.message}", Toast.LENGTH_LONG).show()
             }
         })

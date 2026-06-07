@@ -43,14 +43,15 @@
             android:padding="20dp"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:contentDescription="delete" />
+
         <ImageButton
             android:id="@+id/btn_add"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/baseline_library_add_24"
-            android:padding="20dp"
+            android:layout_width="100dp"
+            android:layout_height="74dp"
+            android:layout_gravity="end|bottom"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:contentDescription="addSth" />
+            android:contentDescription="addSth"
+            android:src="@drawable/baseline_library_add_24" />
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
