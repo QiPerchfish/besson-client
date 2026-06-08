@@ -2,7 +2,8 @@
 ## 帮助文档
 ### 采用了Kotiln + RecyclerView + Retrokit的自由开源的安卓app, 后端技术栈为springboot + RESTful写法 (详情见studentmanager-for-springboot)
 
-> 任何安卓软件开发者都能加入开发并提交代码，项目使用MIT开源协议
+> 任何安卓软件开发者都能加入开发并提交代码，项目使用MIT开源协议。
+> 另外参与开发必须切换至develop分支, 官方的新增代码都会提交到develop上, 如果有人提PR官方也会第一时间合并到develop
 ### 🛠️ 技术栈
 
 | 技术 | 用途 |
