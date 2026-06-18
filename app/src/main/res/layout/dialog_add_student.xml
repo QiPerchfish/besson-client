@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
     <EditText
         android:id="@+id/name_et"
         android:layout_width="match_parent"
@@ -28,5 +28,11 @@
         android:layout_height="wrap_content"
         android:hint="班级"
         android:inputType="text" />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:text="提交" />
 
 </LinearLayout>
